@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  #flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  h2 {
+    color: red;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  .abaut-us {
+    max-width: 450px;
+    background-color: rgb(244, 236, 236);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  }
+  .abaut-us p {
+    padding: 15px;
+    line-height: 25px;
+  }
+  
+  #buttom-abaut-us {
+    background-color:#dd4a4a;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  
+  #motozone {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  }
+  #carrusel {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #zone img {
+    max-width: 97.5%;
+    margin-right: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  }
+  #bottom-left img {
+    margin: 10px;
+    max-width: 18%;
+    margin-right: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  #bottom-right img {
+    margin: 10px;
+    max-width: 22%;
+    margin-right: 100px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .lista-check {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lista-check li ::before {
+    content: "✔";
+    position: relative;
+    left: 0;
+    padding-right: 4px;
+    top: 0;
+    font-size: 20px;
+  }
+  
