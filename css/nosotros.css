@@ -52,6 +52,7 @@
   }
   
   #motozone {
+    margin-top: 50px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
   }
@@ -98,5 +99,29 @@
     padding-right: 4px;
     top: 0;
     font-size: 20px;
+  }
+  
+  @media (max-width: 600px) {
+
+    #flex{
+      flex-direction: column;
+    }
+    #motozone{
+      max-width: 100%;
+      margin-left: 17%;
+    }
+     .abaut-us{
+      margin-left: 11%;
+    }
+    #bottom-right img{
+      margin-left: 50px;
+      max-width: 10%;
+    }
+    #bottom-left img{
+margin-left: 20px;
+    }
+    #zone img {
+      max-width: 110%;
+    }
   }
   
